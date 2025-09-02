@@ -1,0 +1,20 @@
+{
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ],
+  "env": {
+    "VITE_DEEPSEEK_API_KEY": "@deepseek-api-key",
+    "VITE_DEEPSEEK_BASE_URL": "https://api.deepseek.com",
+    "VITE_DEEPSEEK_MODEL": "deepseek-chat"
+  },
+  "build": {
+    "env": {
+      "VITE_DEEPSEEK_API_KEY": "@deepseek-api-key",
+      "VITE_DEEPSEEK_BASE_URL": "https://api.deepseek.com",
+      "VITE_DEEPSEEK_MODEL": "deepseek-chat"
+    }
+  }
+}
